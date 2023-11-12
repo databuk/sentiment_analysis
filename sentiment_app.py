@@ -6,6 +6,8 @@ import streamlit as st
 from lemmatization import lemmatize_tweet
 import nltk
 nltk.download('wordnet')
+nltk.download('punkt')
+
 
 
 
