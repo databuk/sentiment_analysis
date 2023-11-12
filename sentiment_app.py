@@ -4,6 +4,8 @@ import numpy as np
 import joblib
 import streamlit as st
 from lemmatization import lemmatize_tweet
+import nltk
+nltk.download('wordnet')
 
 
 
